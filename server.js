@@ -14,7 +14,7 @@ app.use(express.static("public"))
 
 // For API and HTML routes. See respective scripts in routes folder
 require("./routes/apiroutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/htmlroutes")(app);
 
 // Starts the server to begin listening
 // =============================================================
