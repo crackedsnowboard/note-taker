@@ -1,6 +1,6 @@
 # Note Taker
 
-I am builiding a node.js script that will generate a template for a our teams profile that will be displayed in HTML. This should help us have relevenat bio information for our team displayed in a user friendly format as we continue to add additional team members. 
+I am builiding a note taker application that will help save thoughts that occure during the day for later use. 
 
 ## User Story
 AS A user, I want to be able to write and save notes
