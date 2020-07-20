@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static("public"))
 
 // For API and HTML routes. See respective scripts in routes folder
-require("./routes/apiRoutes")(app);
+require("./routes/apiroutes")(app);
 require("./routes/htmlRoutes")(app);
 
 // Starts the server to begin listening
