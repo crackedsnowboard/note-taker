@@ -1,10 +1,7 @@
-var fs = require("fs");
+// Dependencies
+// =============================================================
 var express = require("express");
 var path = require("path");
-var app = express();
-
-var db = []
-
 
 // Sets up the HTML routes
 // =============================================================
