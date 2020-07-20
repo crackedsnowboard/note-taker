@@ -1,6 +1,6 @@
 # Note Taker
 
-I am builiding a note taker application that will help save thoughts that occure during the day for later use. 
+I am builiding a note taker application that will help save thoughts that occur during the day for later use. 
 
 ## User Story
 AS A user, I want to be able to write and save notes
@@ -11,7 +11,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ## Installation
 I used node.js, express and heroku to deploy the app. 
 
-Check out inquirer [Inquirer](https://www.npmjs.com/package/inquirer)
+Check out Node [Node](https://nodejs.org/en/)
 File Service [Express](http://expressjs.com/)
 Heroku [Heroku](https://www.heroku.com/)
 
