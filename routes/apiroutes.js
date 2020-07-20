@@ -15,8 +15,12 @@ module.exports = function(app) {
     app.get("/api/notes", function (req, res) {
         res.sendFile(path.join(__dirname, "../db/db.json"));
     
-        // notesArray = JSON.parse(fs.readFileSync('./db/db.json'));
-        // res.json(notesArray);
+        // app.get("/api/notes", function (req, res) {
+//     res.sendFile(path.join(__dirname, "./db/db.json"));
+
+    // notesArray = JSON.parse(fs.readFileSync('./db/db.json'));
+    // res.json(notesArray);
+// })
     })
     
     app.post("/api/notes", function (req, res) {
@@ -67,13 +71,6 @@ module.exports = function(app) {
         res.json(notes);
     });
 };
-
-        
-        
-        
-        
-        
-        
         
 //         var deletedNote = [];
 //         for (var i = 0; i < db.length; i++) {
@@ -90,10 +87,4 @@ module.exports = function(app) {
 //         })
     
 //     })
-
-
-
-
-
-
 // }
